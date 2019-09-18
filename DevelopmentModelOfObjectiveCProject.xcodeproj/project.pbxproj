@@ -17,6 +17,8 @@
 		B57F7B41233206BA00CF8441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C7486E2331E07F002E810F /* LaunchScreen.storyboard */; };
 		B57F7B42233206BA00CF8441 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C7486C2331E07F002E810F /* Assets.xcassets */; };
 		B57F7B43233206BA00CF8441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C748692331E07E002E810F /* Main.storyboard */; };
+		B57F7B4C233209A300CF8441 /* ShouYeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F7B4B233209A300CF8441 /* ShouYeViewController.m */; };
+		B57F7B4D233209A300CF8441 /* ShouYeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F7B4B233209A300CF8441 /* ShouYeViewController.m */; };
 		B5C748652331E07E002E810F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C748642331E07E002E810F /* AppDelegate.m */; };
 		B5C748682331E07E002E810F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C748672331E07E002E810F /* ViewController.m */; };
 		B5C7486B2331E07E002E810F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C748692331E07E002E810F /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 		8DE0C807D86FE9C3030641FD /* Pods_DevelopmentModelOfObjectiveCProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevelopmentModelOfObjectiveCProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57F7B48233206BA00CF8441 /* DevelopmentModelOfObjectiveCProject copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DevelopmentModelOfObjectiveCProject copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B57F7B49233206BA00CF8441 /* DevelopmentModelOfObjectiveCProject copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DevelopmentModelOfObjectiveCProject copy-Info.plist"; path = "/Users/hrt03/practice/DevelopmentModelOfObjectiveCProject/DevelopmentModelOfObjectiveCProject copy-Info.plist"; sourceTree = "<absolute>"; };
+		B57F7B4A233209A300CF8441 /* ShouYeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShouYeViewController.h; sourceTree = "<group>"; };
+		B57F7B4B233209A300CF8441 /* ShouYeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouYeViewController.m; sourceTree = "<group>"; };
 		B5C748602331E07E002E810F /* DevelopmentModelOfObjectiveCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevelopmentModelOfObjectiveCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C748632331E07E002E810F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5C748642331E07E002E810F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,6 +148,8 @@
 		B5C7487B2331E201002E810F /* ShouYe */ = {
 			isa = PBXGroup;
 			children = (
+				B57F7B4A233209A300CF8441 /* ShouYeViewController.h */,
+				B57F7B4B233209A300CF8441 /* ShouYeViewController.m */,
 			);
 			path = ShouYe;
 			sourceTree = "<group>";
@@ -410,6 +416,7 @@
 				B57F7B38233206BA00CF8441 /* ViewController.m in Sources */,
 				B57F7B39233206BA00CF8441 /* main.m in Sources */,
 				B57F7B3A233206BA00CF8441 /* HRTNetworking.m in Sources */,
+				B57F7B4D233209A300CF8441 /* ShouYeViewController.m in Sources */,
 				B57F7B3B233206BA00CF8441 /* ExternString.m in Sources */,
 				B57F7B3C233206BA00CF8441 /* AppDelegate.m in Sources */,
 				B57F7B3D233206BA00CF8441 /* HRTJianCeWangLuoDaiLi.m in Sources */,
@@ -423,6 +430,7 @@
 				B5C748682331E07E002E810F /* ViewController.m in Sources */,
 				B5C748732331E07F002E810F /* main.m in Sources */,
 				B5C748932331FF5C002E810F /* HRTNetworking.m in Sources */,
+				B57F7B4C233209A300CF8441 /* ShouYeViewController.m in Sources */,
 				B5C748892331E3C5002E810F /* ExternString.m in Sources */,
 				B5C748652331E07E002E810F /* AppDelegate.m in Sources */,
 				B5C7488F2331FF20002E810F /* HRTJianCeWangLuoDaiLi.m in Sources */,
