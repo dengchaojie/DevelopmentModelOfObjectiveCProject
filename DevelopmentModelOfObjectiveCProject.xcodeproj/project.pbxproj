@@ -21,6 +21,8 @@
 		B57F7B4D233209A300CF8441 /* ShouYeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F7B4B233209A300CF8441 /* ShouYeViewController.m */; };
 		B57F7B4F23320B2300CF8441 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B57F7B4E23320B2300CF8441 /* README.md */; };
 		B57F7B5023320B2300CF8441 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B57F7B4E23320B2300CF8441 /* README.md */; };
+		B57F7B5323320B6800CF8441 /* WoDeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F7B5223320B6800CF8441 /* WoDeViewController.m */; };
+		B57F7B5423320B6800CF8441 /* WoDeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B57F7B5223320B6800CF8441 /* WoDeViewController.m */; };
 		B5C748652331E07E002E810F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C748642331E07E002E810F /* AppDelegate.m */; };
 		B5C748682331E07E002E810F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C748672331E07E002E810F /* ViewController.m */; };
 		B5C7486B2331E07E002E810F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C748692331E07E002E810F /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		B57F7B4A233209A300CF8441 /* ShouYeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShouYeViewController.h; sourceTree = "<group>"; };
 		B57F7B4B233209A300CF8441 /* ShouYeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShouYeViewController.m; sourceTree = "<group>"; };
 		B57F7B4E23320B2300CF8441 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B57F7B5123320B6800CF8441 /* WoDeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WoDeViewController.h; sourceTree = "<group>"; };
+		B57F7B5223320B6800CF8441 /* WoDeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoDeViewController.m; sourceTree = "<group>"; };
 		B5C748602331E07E002E810F /* DevelopmentModelOfObjectiveCProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevelopmentModelOfObjectiveCProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C748632331E07E002E810F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5C748642331E07E002E810F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 		B5C7487C2331E209002E810F /* WoDe */ = {
 			isa = PBXGroup;
 			children = (
+				B57F7B5123320B6800CF8441 /* WoDeViewController.h */,
+				B57F7B5223320B6800CF8441 /* WoDeViewController.m */,
 			);
 			path = WoDe;
 			sourceTree = "<group>";
@@ -424,6 +430,7 @@
 				B57F7B3A233206BA00CF8441 /* HRTNetworking.m in Sources */,
 				B57F7B4D233209A300CF8441 /* ShouYeViewController.m in Sources */,
 				B57F7B3B233206BA00CF8441 /* ExternString.m in Sources */,
+				B57F7B5423320B6800CF8441 /* WoDeViewController.m in Sources */,
 				B57F7B3C233206BA00CF8441 /* AppDelegate.m in Sources */,
 				B57F7B3D233206BA00CF8441 /* HRTJianCeWangLuoDaiLi.m in Sources */,
 			);
@@ -438,6 +445,7 @@
 				B5C748932331FF5C002E810F /* HRTNetworking.m in Sources */,
 				B57F7B4C233209A300CF8441 /* ShouYeViewController.m in Sources */,
 				B5C748892331E3C5002E810F /* ExternString.m in Sources */,
+				B57F7B5323320B6800CF8441 /* WoDeViewController.m in Sources */,
 				B5C748652331E07E002E810F /* AppDelegate.m in Sources */,
 				B5C7488F2331FF20002E810F /* HRTJianCeWangLuoDaiLi.m in Sources */,
 			);
